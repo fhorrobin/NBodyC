@@ -1,0 +1,9 @@
+analysis/
+.vscode/
+.ipynb_checkpoints/
+obj/
+
+~*
+*.txt
+*.x
+*.o
