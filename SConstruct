@@ -17,15 +17,9 @@ for i in range(len(SOURCES)):
     env.Object(target = OBJS[i], source = SOURCES[i])
 
 env.Object(target=OBJS_DIR + '/main.o', source='main.c')
-<<<<<<< HEAD
 
 program = env.Program(target = PROGRAM, source = OBJS + [OBJS_DIR + '/main.o'])
 
 lib = env.Library('lib/nbody', OBJS)
 
 Default(lib)
-=======
-env.Program(target = PROGRAM, source = OBJS + [OBJS_DIR + '/main.o'], parse_flags = PARSE_FLAGS)
-
-env.Library('lib/nbody', OBJS, parse_flags = PARSE_FLAGS)
->>>>>>> a29efeed3c73e74b29ce3ab3f62ff0d93f088692
