@@ -2,6 +2,7 @@ analysis/
 .vscode/
 .ipynb_checkpoints/
 obj/
+.sconsign.dblite
 
 ~*
 *.txt
