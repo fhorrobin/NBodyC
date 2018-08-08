@@ -2,7 +2,7 @@
 #include "includes/particle.h"
 #include "includes/simulation.h"
 
-int main()
+int main(void)
 {
     const double mu = 0.001;
 
