@@ -1,10 +1,13 @@
 analysis/
 .vscode/
 .ipynb_checkpoints/
-obj/
+build/
+lib/
+build/obj/
 .sconsign.dblite
 
 ~*
 *.txt
 *.x
 *.o
+*.a

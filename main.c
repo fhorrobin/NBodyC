@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "../includes/particle.h"
-#include "../includes/simulation.h"
+#include "includes/particle.h"
+#include "includes/simulation.h"
 
 int main()
 {
