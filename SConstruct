@@ -18,8 +18,11 @@ for i in range(len(SOURCES)):
 
 env.Object(target=OBJS_DIR + '/main.o', source='main.c')
 
-program = env.Program(target = PROGRAM, source = OBJS + [OBJS_DIR + '/main.o'])
+lib = env.Library('lib/nbody', OBJS, parse_flags = PARSE_FLAGS)
 
-lib = env.Library('lib/nbody', OBJS)
+program = env.Program(target = PROGRAM, source = OBJS + [OBJS_DIR + '/main.o'], parse_flags = PARSE_FLAGS)
 
 Default(lib)
+
+Alias('program', program)
+Alias('lib', lib)

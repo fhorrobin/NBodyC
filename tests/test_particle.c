@@ -14,7 +14,7 @@ int main()
         fprintf(stderr, "Test Failed: create_particle().\n");        
         exit(EXIT_FAILURE);
     }
-
+    printf("Test\n");
     return EXIT_SUCCESS;
 }
 

@@ -1,4 +1,11 @@
 import glob
 import os
 
-Program('test_particle.c', LIBS=['nbody', 'm'], LIBPATH='../lib')
+env = Environment()
+
+TARGET = 'test_particle.x'
+program = env.Program(target = TARGET, source = 'test_particle.c', LIBS=['nbody', 'm'], LIBPATH='../lib')
+
+env.Default(program)
+
+Alias('program', program)
