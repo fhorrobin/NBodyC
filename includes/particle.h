@@ -1,3 +1,9 @@
+/**
+ * @file particle.h
+ * @brief Data and methods for a point particle.
+ */
+
+
 #ifndef PARTICLE_H_
 #define PARTICLE_H_
 

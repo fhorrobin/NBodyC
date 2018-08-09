@@ -5,6 +5,7 @@ build/
 lib/
 build/obj/
 .sconsign.dblite
+docs/
 
 ~*
 *.txt

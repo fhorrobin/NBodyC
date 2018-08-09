@@ -1,3 +1,9 @@
+/**
+ * @file leapfrog.h
+ * @brief Implementation of leapfrog integrator.
+ */
+
+
 #ifndef LEAPFROG_H_
 #define LEAPFROG_H_
 

@@ -1,3 +1,9 @@
+/**
+ * @file gravity.h
+ * @brief Functions to perform gravity calculations.
+ */
+
+
 #ifndef GRAVITY_H_
 #define GRAVITY_H_
 

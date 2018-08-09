@@ -1,3 +1,9 @@
+/**
+ * @file error_handler.h
+ * @brief Helper functions for handling errors.
+ */
+
+
 #ifndef ERROR_HANDLER_H_
 #define ERROR_HANDLER_H_
 

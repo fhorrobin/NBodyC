@@ -1,3 +1,8 @@
+/**
+ * @file simulation.h
+ * @brief Data and methods for an NBody simulation.
+ */
+
 #ifndef SIMULATION_H_
 #define SIMULATION_H_
 
@@ -5,10 +10,15 @@
 #include "particle.h"
 
 /**
+ * @struct Simulation_
  * @brief Data structure for a simulation.
  * Holds the particles and other information about an
  * NBody simulation. Particles are stored as pointer array to
  * pointers of particles.
+ * @param particles The particles in the simulation.
+ * @param num_particles The number of particles in the simulation.
+ * @param curr The current index for inserting particles.
+ * @param dt The timestep for the simulation.
  */
 struct Simulation_ {
     Particle2D **particles;
@@ -19,6 +29,7 @@ struct Simulation_ {
 typedef struct Simulation_ Simulation;
 
 /**
+ * @
  * @brief Allocate the memory for a simulation.
  * @param inum_particles The number of particles in the simulation.
  * @param idt the timestep for the simulation.
