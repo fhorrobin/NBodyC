@@ -19,7 +19,7 @@ Right now the program dumps the positions for each particle every 10 timesteps i
 
 ## Documentation
 
-I am in the process of the completing documenting the code with Doxygen. Stay tuned for more updates.
+Use Doxygen to generate documentation suing the config.doxy file.
 
 ## Example Problems/Test Problems
 
