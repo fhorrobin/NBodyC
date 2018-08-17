@@ -1,7 +1,7 @@
 # Makefile for NBdodyC Project
 
 CC = gcc
-CFLAGS = #-Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes -Wcast-qual -Wswitch-default -Wswitch-enum  -Wconversion -Wunreachable-code -std=c11
+CFLAGS = -lm -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes -Wcast-qual -Wswitch-default -Wswitch-enum  -Wconversion -Wunreachable-code -std=c11
 
 ifndef PROGRAM
 	PROGRAM = build/main.x
